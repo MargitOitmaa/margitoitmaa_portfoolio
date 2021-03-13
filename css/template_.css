@@ -1,6 +1,7 @@
+@charset "UTF-8";
+
 /* template*/
 
-@charset "UTF-8";
 .page-loading .page-wrap {
     max-height: 100%;
     overflow: hidden
@@ -286,8 +287,7 @@
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url(/css/fontawesome-webfont.woff2);
-    src: url(/css/fontawesome-webfont.woff2) format("embedded-opentype"), url(/css/fontawesome-webfont.woff2) format("woff2"), url(/css/fontawesome-webfont.woff2) format("woff"), url(/css/fontawesome-webfont.woff2) format("truetype"), url(/css/fontawesome-webfont.woff2) format("svg");
+    src: url(../fonts/fontawesome-webfont.woff2) format("woff2");
     font-weight: 400;
     font-style: normal
 }
@@ -3239,52 +3239,26 @@
 
 @font-face {
     font-family: 'Muller';
-    src: local(MullerThin), local(MullerThin), url(/css/MullerThin.woff2) format("woff2"), url(/css/MullerThin.woff) format("woff"), url(/css/MullerThin.ttf) format("truetype");
+    src: local(MullerThin), url(../fonts/MullerThin.woff2) format("woff2");
     font-weight: 100;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Muller';
-    src: local(MullerUltraLight), local(../fonts/Muller/MullerUltraLight), url(/local/assets/css/../fonts/Muller/MullerUltraLight.woff2) format("woff2"), url(/local/assets/css/../fonts/Muller/MullerUltraLight.woff) format("woff"), url(/local/assets/css/../fonts/Muller/MullerUltraLight.ttf) format("truetype");
-    font-weight: 200;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Muller';
-    src: local(MullerLight), local(MullerLight), url(/css/MullerLight.woff2) format("woff2"), url(/css/MullerLight.woff) format("woff"), url(/css/MullerLight.ttf) format("truetype");
+    src: local(MullerLight), url(../fonts/MullerLight.woff2) format("woff2");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Muller';
-    src: local('Muller Reg'), local('Muller Reg'), url(/css/MullerRegular.woff2) format("woff2"), url(/css/MullerRegular.woff) format("woff"), url(/css/MullerRegular.ttf) format("truetype");
+    src: local('Muller Reg'), url(../fonts/MullerRegular.woff2) format("woff2");
     font-weight: 400;
     font-style: normal
 }
 
-@font-face {
-    font-family: 'Muller';
-    src: local('Muller Hairline'), local('Muller Hairline'), url(/local/assets/css/../fonts/Muller/MullerHairline.woff2) format("woff2"), url(/local/assets/css/../fonts/Muller/MullerHairline.woff) format("woff"), url(/local/assets/css/../fonts/Muller/MullerHairline.ttf) format("truetype");
-    font-weight: 500;
-    font-style: normal
-}
 
-@font-face {
-    font-family: 'Muller';
-    src: local('Muller Medium'), local('Muller Medium'), url(/local/assets/css/../fonts/Muller/MullerMedium.woff2) format("woff2"), url(/local/assets/css/../fonts/Muller/MullerMedium.woff) format("woff"), url(/local/assets/css/../fonts/Muller/MullerMedium.ttf) format("truetype");
-    font-weight: 600;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Muller';
-    src: local('Muller Bold'), local('Muller Bold'), url(/local/assets/css/../fonts/Muller/MullerBold.woff2) format("woff2"), url(/local/assets/css/../fonts/Muller/MullerBold.woff) format("woff"), url(/local/assets/css/../fonts/Muller/MullerBold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal
-}
 
 html {
     font-family: sans-serif;
@@ -25381,7 +25355,7 @@ body:not(.sidebar-opened):not(.sidebar-closed) .main-view.ng-enter-active {
     text-transform: uppercase;
     text-indent: -999em;
     line-height: 35px;
-    background: url(/img/icon_up.svg) no-repeat left top;
+    background: url(../img/icon_up.svg) no-repeat left top;
     background-size: 100% 100%;
     opacity: .5;
     overflow: hidden;
