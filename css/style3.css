@@ -15,7 +15,7 @@ body {
 }
 
 div {
-    /* border: 1px solid red;*/
+    /* border: 1px solid red; */
 }
 
 .nav-toggle {
@@ -59,7 +59,7 @@ a {
     text-decoration-color: initial;
 }
 
-.logoo-images {
+.logo-images {
     position: relative;
     display: block;
     margin: 0 auto;
@@ -74,15 +74,15 @@ a {
     overflow-y: hidden;
 }
 
-.logoo-white {
-    background-image: url(../img/logo_MO_w.svg);
+.logo-white {
+    background-image: url(../img/logo-white.svg);
 }
 
-.logoo-dark {
-    background-image: url(../img/logo_MO_b.svg);
+.logo-dark {
+    background-image: url(../img/logo-dark.svg);
 }
 
-.logoo-img {
+.logo-img {
     position: absolute;
     left: 0;
     top: 0;
@@ -101,25 +101,6 @@ a {
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     transition-delay: 0s;
 }
-
-.ng-pageslide-body-closed .logoo-dark {
-    visibility: hidden;
-}
-
-.ng-pageslide-body-open .logoo-dark {
-    visibility: visible;
-}
-
-.ng-pageslide-body-open .logoo-white {
-    visibility: hidden;
-}
-
-.ng-pageslide-body-closed .logoo-white {
-    visibility: visible;
-}
-
-
-
 
 .page-lines {
     position: fixed;
